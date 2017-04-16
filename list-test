@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<div class="users-choice">
+  <form action="#" method="get">
+    <h2 class="minor-header">Производители:</h2>
+    <select name="brands" multiple size="6">
+      <option>BAXTER OF CALIFORNIA</option>
+      <option>MR NATTY</option>
+      <option>SUAVECITO</option>
+      <option>MALIN-GOETZ</option>
+      <option>AMERICAN CREW</option>
+    </select>
+    <h2 class="minor-header">Группы товаров:</h2>
+    <select name="types" multiple size="3">
+      <option>Бритвенные принадлежности</option>
+      <option>Средства для ухода</option>
+      <option>Аксессуары</option>
+    </select>
+    <input type="submit" value="Показать">
+  </form>
+</div>
+</html>
