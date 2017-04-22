@@ -9,7 +9,7 @@
     <header class="main-header">
       <div class="container">
         <div class="index-small-logo">
-          <img src="#" alt="Барбершоп">
+          <img src="img/logosmall.png" alt="Барбершоп">
         </div>
         <nav class="main-navigation">
           <ul>
@@ -35,8 +35,8 @@
       </div>
     </header>
     <main class="container">
+      <h1 class="major-header">Средства для ухода</h1>
       <nav class="breadcrumbs">
-        <h1 class="major-header">Средства для ухода</h1>
         <ul>
           <li>
             <a href="#">Главная</a>
@@ -49,65 +49,65 @@
           </li>
         </ul>
       </nav>
-      <div class="users-choice">
+      <div class="search-form">
         <form action="#" method="post">
-          <h2 class="minor-header">Производители:</h2>
-          <label>Baxter of california<input type="checkbox" name="baxter-of-california" checked>
+          <h3 class="minor-header">Производители:</h3>
+          <label class="search-choice">Baxter of california<input type="checkbox" name="baxter-of-california" checked>
           </label>
-          <label>Mr natty<input type="checkbox" name="mr-natty">
+          <label class="search-choice">Mr natty<input type="checkbox" name="mr-natty">
           </label>
-          <label>Suavecito<input type="checkbox" name="suavecito" checked>
+          <label class="search-choice">Suavecito<input type="checkbox" name="suavecito" checked>
           </label>
-          <label>Malin-goetz<input type="checkbox" name="malin-goetz">
+          <label class="search-choice">Malin-goetz<input type="checkbox" name="malin-goetz">
           </label>
-          <label>American crew<input type="checkbox" name="american-crew" checked>
+          <label class="search-choice">American crew<input type="checkbox" name="american-crew" checked>
           </label>
-          <h2 class="minor-header">Группы товаров:</h2>
-          <label>Бритвенные принадлежности<input type="checkbox" name="for-razor">
+          <h3 class="minor-header">Группы товаров:</h3>
+          <label class="search-choice">Бритвенные принадлежности<input type="checkbox" name="for-razor">
           </label>
-          <label>Средства для ухода<input type="checkbox" name="for-care" checked>
+          <label class="search-choice">Средства для ухода<input type="checkbox" name="for-care" checked>
           </label>
-          <label>Аксессуары<input type="checkbox" name="for-acces">
+          <label class="search-choice">Аксессуары<input type="checkbox" name="for-acces">
           </label>
-          <input type="submit" value="Показать">
+          <input class="btn btn-show" type="submit" value="Показать">
         </form>
       </div>
       <div class="articles">
         <article class="articles-type">
           <img src="img/1goodsphoto.jpg" alt="Набор для путешествий">
-          <p>Набор для путешествий <span>"Baxter of california"</span></p>
-          <div>2 900 руб.</div>
-          <a class="buy-button" href="#">Купить</a>
+          <p>Набор для путешествий <span class="price-brand">«Baxter of california»</span></p>
+          <div class="price-brand">2 900 руб.</div>
+          <a class="btn-buy" href="#">Купить</a>
         </article>
         <article class="articles-type">
           <img src="img/2goodsphoto.jpg" alt="Увлажняющий кондиционер">
-          <p>Увлажняющий кондиционер "Baxter of california"</p>
-          <div>750 руб.</div>
-          <a class="buy-button" href="#">Купить</a>
+          <p>Увлажняющий кондиционер <span class="price-brand">«Baxter of california»</span></p>
+          <div class="price-brand">750 руб.</div>
+          <a class="btn-buy" href="#">Купить</a>
         </article>
         <article class="articles-type">
           <img src="img/3goodsphoto.jpg" alt="Гель для волос">
-          <p>Гель для волос "Suavecito"</p>
-          <div>290 руб.</div>
-          <a class="buy-button" href="#">Купить</a>
+          <p>Гель для волос <span class="price-brand">«Suavecito»</span></p>
+          <div class="price-brand">290 руб.</div>
+          <a class="btn-buy" href="#">Купить</a>
         </article>
         <article class="articles-type">
           <img src="img/4goodsphoto.jpg" alt="Глина для укладки волос">
-          <p>Глина для укладки волос "American crew"</p>
-          <div>500 руб.</div>
-          <a class="buy-button" href="#">Купить</a>
+          <p>Глина для укладки волос <span class="price-brand">«American crew»</span></p>
+          <div class="price-brand">500 руб.</div>
+          <a class="btn-buy" href="#">Купить</a>
         </article>
         <article class="articles-type">
           <img src="img/5goodsphoto.jpg" alt="Гель для волос">
-          <p>Гель для волос "American crew"</p>
-          <div>300 руб.</div>
-          <a class="buy-button" href="#">Купить</a>
+          <p>Гель для волос <span class="price-brand">«American crew»</span></p>
+          <div class="price-brand">300 руб.</div>
+          <a class="btn-buy" href="#">Купить</a>
         </article>
         <article class="articles-type">
           <img src="img/6goodsphoto.jpg" alt="Набор для бритья">
-          <p>Набор для бритья "Baxter of california"</p>
-          <div>3 900 руб.</div>
-          <a class="buy-button" href="#">Купить</a>
+          <p>Набор для бритья <span class="price-brand">«Baxter of california»</span></p>
+          <div class="price-brand">3 900 руб.</div>
+          <a class="btn-buy" href="#">Купить</a>
         </article>
       </div>
       <div class="pages">
@@ -137,13 +137,19 @@
         </section>
         <section class="footer-social">
           <p>Давайте дружить!</p>
-          <a class="social-btn social-btn-vkontakte" href="#">Вконтакте</a>
-          <a class="social-btn social-btn-facebook" href="#">Фейсбук</a>
-          <a class="social-btn social-btn-instagram" href="#">Инстаграм</a>
+          <a class="social-btn social-btn-vkontakte">
+            <img src="img/vkontakte.png" alt="Вконтакте">
+          </a>
+          <a class="social-btn social-btn-facebook">
+            <img src="img/facebook.png" alt="Фейсбук">
+          </a>
+          <a class="social-btn social-btn-instagram">
+            <img src="img/instagram.png" alt="Инстаграм">
+          </a>
         </section>
         <section class="footer-copyright">
           <p>Разработано:</p>
-          <a class="btn" href="https://htmlacademy.ru">HTML academy</a>
+          <a class="btn" href="https://htmlacademy.ru">htmlacademy.ru</a>
         </section>
       </div>
     </footer>

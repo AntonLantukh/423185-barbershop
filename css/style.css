@@ -3,8 +3,7 @@ body {
   line-height: 24px;
   color: rgb(0, 0, 0);
   font-weight: bold;
-  font-style: normal;
-  text-transform: none;
+  text-transform: uppercase;
   font-family: "PT Sans Narrow" "DIN Pro" sans-serif;
 }
 
@@ -13,8 +12,7 @@ h1 {
   line-height: 42px;
   color: rgb(0, 0, 0);
   font-weight: bold;
-  font-style: normal;
-  text-transform: none;
+  text-transform: uppercase;
   font-family: "PT Sans Narrow" "DIN Pro" sans-serif;
 }
 
@@ -23,7 +21,15 @@ h2 {
   line-height: 42px;
   color: rgb(0, 0, 0);
   font-weight: bold;
-  font-style: normal;
+  text-transform: none;
+  font-family: "PT Sans Narrow" "DIN Pro" sans-serif;
+}
+
+h3 {
+  font-size: 24px;
+  line-height: 30px;
+  color: rgb(0, 0, 0);
+  font-weight: bold;
   text-transform: none;
   font-family: "PT Sans Narrow" "DIN Pro" sans-serif;
 }
@@ -33,7 +39,6 @@ b {
   line-height: 42px;
   color: rgb (247, 244, 241);
   font-weight: bold;
-  font-style: normal;
   text-transform: none;
   font-family: "PT Sans Narrow" "DIN Pro" sans-serif;
 }
@@ -43,37 +48,114 @@ b {
   line-height: 20px;
   color: rgb(255, 255, 255);
   font-weight: bold;
-  font-style: normal;
   text-transform: uppercase;
   font-family: "PT Sans Narrow" "DIN Pro" sans-serif;
 }
 
-.section p {
+.features-description {
     font-size: 14px;
     line-height: 24px;
     color: rgb(247, 244, 241);
     font-weight: bold;
-    font-style: normal;
     text-transform: uppercase;
     font-family: "PT Sans Narrow" "DIN Pro" sans-serif;
   }
 
+.articles {
+  font-size: 14px;
+  line-height: 18px;
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  text-transform: uppercase;
+  font-family: "PT Sans Narrow" "DIN Pro" sans-serif;
+}
+
   .articles-type {
-    font-size: 14x;
+    font-size: 14px;
     line-height: 18px;
     color: rgb(0, 0, 0);
     font-weight: bold;
-    font-style: normal;
     text-transform: none;
+    font-family: "PT Sans Narrow" "DIN Pro" sans-serif;
+  }
+
+  .breadcrumbs{
+    font-size: 14x;
+    line-height: 20px;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: "PT Sans Narrow" "DIN Pro" sans-serif;
+  }
+
+  .search-from .search-choice {
+    font-size: 14px;
+    line-height: 18px;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    text-transform: uppercase;
     font-family: "PT Sans Narrow" "DIN Pro" sans-serif;
   }
 
   .btn {
       font-size: 14px;
       line-height: 24px;
-      color: rgb(247, 244, 241);
+      color: rgb(255, 255, 255);
       font-weight: bold;
-      font-style: normal;
       text-transform: uppercase;
       font-family: "PT Sans Narrow" "DIN Pro" sans-serif;
     }
+
+  .btn-show {
+    font-size: 13px;
+    line-height: 18px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: "PT Sans Narrow" "DIN Pro" sans-serif;
+  }
+
+  .btn-buy {
+    font-size: 14px;
+    line-height: 18px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: "PT Sans Narrow" "DIN Pro" sans-serif;
+  }
+
+  .price-brand{
+    font-size: 14px;
+    line-height: 18px;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: "PT Sans Narrow" "DIN Pro" sans-serif;
+  }
+
+  .model {
+    font-size: 14px;
+    line-height: 24px;
+    color: rgb(174, 174, 174);
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: "PT Sans Narrow" "DIN Pro" sans-serif;
+  }
+
+  .pages {
+    font-size: 14px;
+    line-height: 18px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: "PT Sans Narrow" "DIN Pro" sans-serif;
+  }
+
+.main-footer {
+    font-size: 14px;
+    line-height: 24px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: "PT Sans Narrow" "DIN Pro" sans-serif;
+}
